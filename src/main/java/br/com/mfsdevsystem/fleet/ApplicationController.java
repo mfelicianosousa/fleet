@@ -23,7 +23,7 @@ public class ApplicationController {
 	
 	@GetMapping("/helpdesk")
 	public String helpdesk() {
-		return "/hel/index";
+		return "/helpdesk/index";
 	}
 	
 	@GetMapping("/accounts")
